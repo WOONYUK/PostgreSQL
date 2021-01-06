@@ -1,0 +1,6 @@
+###PostgreSQLのテーブルスペース使用容量###
+select spcname, pg_size_pretty(pg_tablespace_size(spcname)) from pg_tablespace;
+
+
+###PostgreSQLのテーブルスペースoid確認###
+select oid , * from pg_tablespace;
