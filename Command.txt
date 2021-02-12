@@ -11,3 +11,10 @@ select oid , * from pg_tablespace;
 
 ###Max_Connections###
 select * from pg_settings where name = 'max_connections';
+
+###postgresql.conf設定反映確認###
+(全部)show all;
+
+(特定値)show パラメータ;
+
+
